@@ -8,7 +8,7 @@ from views.hello_user_form_ui import Ui_HelloUserForm
 
 class HelloUserForm(QWidget):
     def __init__(self, parent: Optional[QWidget] = None):
-        super(HelloUserForm, self).__init__(parent)
+        super().__init__(parent)
         self._ui = Ui_HelloUserForm()
         self._ui.setupUi(self)
 

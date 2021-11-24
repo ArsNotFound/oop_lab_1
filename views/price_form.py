@@ -8,7 +8,7 @@ from views.price_form_ui import Ui_PriceForm
 
 class PriceForm(QWidget):
     def __init__(self, parent: Optional[QWidget] = None):
-        super(PriceForm, self).__init__(parent)
+        super().__init__(parent)
         self.ui = Ui_PriceForm()
         self.ui.setupUi(self)
 

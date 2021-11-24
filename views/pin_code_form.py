@@ -10,7 +10,7 @@ PIN_CODE = "1234"
 
 class PinCodeForm(QWidget):
     def __init__(self, parent: Optional[QWidget] = None):
-        super(QWidget, self).__init__(parent)
+        super().__init__(parent)
         self._ui = Ui_PinCodeForm()
         self._ui.setupUi(self)
 

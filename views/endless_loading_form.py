@@ -8,7 +8,7 @@ from views.endless_loading_form_ui import Ui_EndlessLoadingForm
 
 class EndlessLoadingForm(QWidget):
     def __init__(self, parent: Optional[QWidget] = None):
-        super(EndlessLoadingForm, self).__init__(parent)
+        super().__init__(parent)
         self._ui = Ui_EndlessLoadingForm()
         self._ui.setupUi(self)
 

@@ -9,7 +9,7 @@ from views.date_form_ui import Ui_DateForm
 
 class DateForm(QWidget):
     def __init__(self, parent: Optional[QWidget] = None):
-        super(DateForm, self).__init__(parent)
+        super().__init__(parent)
         self._ui = Ui_DateForm()
         self._ui.setupUi(self)
 
