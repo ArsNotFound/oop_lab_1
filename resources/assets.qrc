@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="img">
+    <file>assets/img/cat.jpg</file>
+  </qresource>
+</RCC>
